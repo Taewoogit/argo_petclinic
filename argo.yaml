@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fatclinic-container
-        image: asia.gcr.io/midyear-spot-368821/fatclinic-was:v1 
+        image: asia.gcr.io/midyear-spot-368821/fatclinic:30
         ports:
         - containerPort: 8080
         resources:
